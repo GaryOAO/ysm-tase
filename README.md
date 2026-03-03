@@ -8,9 +8,10 @@ The provided scripts simulate the collective behavior of multi-agent systems (MA
 
 ## Files Description
 
-- `flocking_CC_leader_0414.m`:
+- `flocking_CC_leader.m`:
   - **Scenario**: Leader-follower flocking.
   - **Features**: Implements an extended system with $2n$ nodes to analyze the augmented digraph. It demonstrates how followers converge to the leader's state through dynamic weight transitions.
 - `Flocking_CC_leaderless.m`:
   - **Scenario**: Leaderless flocking and bipartite formation.
+
   - **Features**: Simulates the system's evolution under different cooperation ranges ($\epsilon$). It illustrates the emergence of velocity consensus or bipartite synchronization.
